@@ -11,7 +11,7 @@ WebService::Rockol - A simple and fast interface to the Rockol API
         'app_key' => 'YOUR_APP_KEY',
     );
 
-    my $data = $rockol->artisti( country => 'JP' );
+    my $data = $rockol->artisti(mbid => '65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
 
 # DESCRIPTION
 
